@@ -12,3 +12,8 @@ Using the ymal file below
 To execute the following command in cloud shell of GCP.
 
 `kubectl create -f batch-deployment.yaml`
+
+
+== Key Word
+language:Java,Spring
+Platform:GCP,GKE(kubernetes),Cloud SQL(mysql),Load balancing
