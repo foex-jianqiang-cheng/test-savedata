@@ -6,6 +6,9 @@
 == How to deploy Application to GKE(kubernetes)
 
 Using the ymal file below
+
 `kubernetes/`
+
 To execute the following command in cloud shell of GCP.
+
 `kubectl create -f batch-deployment.yaml`
