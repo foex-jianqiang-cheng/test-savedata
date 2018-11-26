@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: batch-savedata
+  labels:
+    run: batch-savedata
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: batch-savedata
+    spec:
+      containers:
+      - name: batch-savedata
+        image: jianqiang/savedata:latest
+

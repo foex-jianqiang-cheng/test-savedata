@@ -1,8 +1,11 @@
 
-== What you'll build
+== How to build Source,build DockerImage & push DockerImage.
 
-`src/main/java/hello/ScheduledTasks.java`
+`./mvnw install dockerfile:build  dockerfile:push`
 
-== What you'll need
+== How to deploy Application to GKE(kubernetes)
 
-`src/main/java/hello/ScheduledTasks.java`
+Using the ymal file below
+`kubernetes/`
+To execute the following command in cloud shell of GCP.
+`kubectl create -f batch-deployment.yaml`
